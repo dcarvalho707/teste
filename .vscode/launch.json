@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch teste",
+      "request": "launch",
+      "mainClass": "teste",
+      "projectName": "testes_e17e0f8d"
+    },
+    {
+      "name": "Rails server",
+      "type": "Ruby",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "program": "${workspaceRoot}/bin/rails",
+      "args": [
+        "server"
+      ]
+    }
+  ]
+}
