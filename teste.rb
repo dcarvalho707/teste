@@ -1,3 +1,2 @@
-3.times do
-  print 'Hello World'
-end;
+puts "Hello World"
+print "Hello World"
